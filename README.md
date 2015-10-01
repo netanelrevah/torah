@@ -1,1 +1,3 @@
-# TODO: Add read me for package
+# Torah
+
+Package for researching the Torah
