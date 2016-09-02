@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 __author__ = 'netanelrevah'
 
@@ -12,7 +12,7 @@ REQUIREMENTS = []
 setup(
     name='torah',
     version=version,
-    packages=['torah'],  # Don't forget to add subpackages
+    packages=find_packages(),
 
     install_requires=REQUIREMENTS,
 
